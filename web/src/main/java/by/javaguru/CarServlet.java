@@ -29,7 +29,7 @@ public class CarServlet extends HttpServlet {
         writer.println("<html><body>");
 
         writer.println("<h1> Car: </h1>");
-        writer.println("<p style='color:powderblue'> " + car.get().getBrandOfCar() +"</p>");
+        writer.println("<p style='color:Tomato'> " + car.get().getBrandOfCar() +"</p>");
         writer.println("<p style='color:Tomato'> " + car.get().getPrice() +"</p>");
         writer.println("<p style='color:Tomato'> " + car.get().getMaxSpeed() +"</p>");
 
